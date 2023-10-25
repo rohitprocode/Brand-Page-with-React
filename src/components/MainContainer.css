@@ -1,14 +1,77 @@
-.Container{
+.Container{  
     display: flex;
     width: 1190px;
     height: calc(100vh - 72px);
-    margin: 0 auto;
+    margin: auto;   
+    align-items: center;
 }
 
-.text-content{
-   
+.content-field{
+    display: flex;
 }
 
-.img-content{
+.text-content-field h1{
+   font-size: 108px;
+   line-height: 102px;
+   font-weight: 800;
+   margin-bottom: 10px;
+}
+
+.text-content-field p{
+    color: var(--grey);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.text-content-btn{
+    margin: 20px auto;
+    display: flex;
+    gap: 40px;
+}
+
+.btn1{
+    background-color: var(--red);
+    padding: 6px 16px;
+    color: white;
+    border: none;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.btn1:hover{
+    color: darkred;
+    background: white;
+    border: 1px solid darkred;
+}
+
+.btn2{
+    background-color: transparent;
+    padding: 6px 16px;
+    color: var(--grey);
+    border: 1px solid black;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.btn2:hover{
+    color: darkred;
+    border: 1px solid darkred;
+}
+
+.selling-app p{
+    font-size: 10px;
+    font-weight: 100;
+    margin: 5px 0;
+}
+
+.site-img{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+/* .img-content-field{
     width: 595px;
-}
+} */
