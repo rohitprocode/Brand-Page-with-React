@@ -1,0 +1,14 @@
+.Container{
+    display: flex;
+    width: 1190px;
+    height: calc(100vh - 72px);
+    margin: 0 auto;
+}
+
+.text-content{
+   
+}
+
+.img-content{
+    width: 595px;
+}
